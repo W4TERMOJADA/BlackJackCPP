@@ -9,11 +9,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # Add the source files
 set(SOURCES
-    main.cpp
-    Card.cpp
-    Deck.cpp
-    Player.cpp
-    Game.cpp
+    src/main.cpp
 )
 
 # Add the executable target
