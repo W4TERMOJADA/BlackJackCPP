@@ -11,6 +11,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 set(SOURCES
     src/main.cpp
 )
-
+include_directories(src)
 # Add the executable target
 add_executable(BlackJack ${SOURCES})

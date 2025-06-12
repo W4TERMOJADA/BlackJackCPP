@@ -1,7 +1,7 @@
 [
 {
   "directory": "C:/Users/Juan/Desktop/BlackJackCPP/build",
-  "command": "C:\\mingw64\\bin\\clang++.exe   -g -std=gnu++17 -o CMakeFiles\\BlackJack.dir\\src\\main.cpp.obj -c C:\\Users\\Juan\\Desktop\\BlackJackCPP\\src\\main.cpp",
+  "command": "C:\\mingw64\\bin\\clang++.exe  @CMakeFiles/BlackJack.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\BlackJack.dir\\src\\main.cpp.obj -c C:\\Users\\Juan\\Desktop\\BlackJackCPP\\src\\main.cpp",
   "file": "C:/Users/Juan/Desktop/BlackJackCPP/src/main.cpp",
   "output": "CMakeFiles/BlackJack.dir/src/main.cpp.obj"
 }
