@@ -7,7 +7,7 @@ int main() {
     History* history = new History("history.txt");
     Game* game = new Game(history);
     while (true) {
-        std::cout << " 1) Jugar  2) Histórico  3) Salir: ";
+        std::cout << " 1) Jugar  2) Historial  3) Salir: \n";
         int opt;
         std::cin >> opt;
         std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');

@@ -24,27 +24,27 @@ void Game::playerTurn(Player* player, Deck* deck) {
         std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
         if (c=='h' || c=='H') {
             Card card = deck->dealCard();
-            std::cout << "Recibes: " << card.toString() << "";
+            std::cout << "Recibes: " << card.toString() << "\n";
             player->receiveCard(card);
         } else if (c=='s' || c=='S') break;
     }
 }
 
 void Game::dealerTurn(Dealer* dealer, Deck* deck) {
-    std::cout << "Turno Dealer...";
+    std::cout << "Turno Dealer...\n";
     std::cout << "Dealer mano: " << dealer->showHand(false) << " ";
     while (dealer->shouldHit()) {
         Card card = deck->dealCard();
-        std::cout << "Dealer pide: " << card.toString() << "";
+        std::cout << "Dealer pide: " << card.toString() << "\n";
         dealer->receiveCard(card);
-        std::cout << "Dealer mano: " << dealer->showHand(false) << "";
+        std::cout << "Dealer mano: " << dealer->showHand(false) << "\n";
     }
 }
 
 bool Game::determineWinner(Player* player, Dealer* dealer) const {
-    std::cout << "=== Resultado ===";
-    std::cout << "Tu: " << player->showHand(false) << "";
-    std::cout << "Dealer: " << dealer->showHand(false) << "";
+    std::cout << "\n=== Resultado ===\n";
+    std::cout << "Tu: " << player->showHand(false) << "\n";
+    std::cout << "Dealer: " << dealer->showHand(false) << "\n";
     if (player->isBlackjack() && !dealer->isBlackjack()) return true;
     if (!player->isBust() && dealer->isBust()) return true;
     if (player->isBust()) return false;
@@ -69,7 +69,7 @@ bool Game::playRound(const std::string& playerName) {           //Blackjack clas
 }
 
 void Game::showPartialHands(Player* player, Dealer* dealer) const {
-    std::cout << "=== Manos Iniciales ===";
-    std::cout << "Tu mano: " << player->showHand(false) << "";
-    std::cout << "Dealer mano: " << dealer->showHand(true) << " (oculto)";
+    std::cout << "=== Manos Iniciales ===\n";
+    std::cout << "Tu mano: " << player->showHand(false) << "\n";
+    std::cout << "Dealer mano: " << dealer->showHand(true) << " (oculto)\n";  //podriamos mostrarla, mostrar solo una...
 }
