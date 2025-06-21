@@ -34,7 +34,7 @@ void History::save() const {
         return;
     }
     for (const auto& kv : records) {
-        file << kv.first << " " << kv.second.first << " " << kv.second.second << "";
+        file << kv.first << " " << kv.second.first << " " << kv.second.second << "\n";  //agregar salto al final de cada línea
     }
 }
 
@@ -51,12 +51,12 @@ void History::updatePlayer(const std::string& playerName, bool didWin) {
 
 void History::printAll() const {
     if (records.empty()) {
-        std::cout << "No hay registros de juego.";
+        std::cout << "\nNo hay registros de juego.";
         return;
     }
-    std::cout << "Jugador      Victorias  Derrotas";
-    std::cout << "------------------------------";
+    std::cout << "Jugador      Victorias  Derrotas\n";
+    std::cout << "------------------------------\n";
     for (const auto& kv : records) {
-        std::cout << kv.first << "      " << kv.second.first << "         " << kv.second.second << " ";
+        std::cout << kv.first << "            " << kv.second.first << "         " << kv.second.second << " \n\n";
     }
 }
