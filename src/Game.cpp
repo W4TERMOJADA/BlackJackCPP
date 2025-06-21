@@ -2,8 +2,7 @@
 #include <iostream>
 #include <limits>
 
-Game::Game(History* historyManager)
-    : history(historyManager) {}
+Game::Game(History* historyManager) : history(historyManager) {}
 Game::~Game() {}
 
 void Game::initialDeal(Player* player, Dealer* dealer, Deck* deck) {
@@ -22,7 +21,7 @@ void Game::playerTurn(Player* player, Deck* deck) {
         std::cout << "¿Hit (h) o Stand (s)? ";
         char c;
         std::cin >> c;
-        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '');
+        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
         if (c=='h' || c=='H') {
             Card card = deck->dealCard();
             std::cout << "Recibes: " << card.toString() << "";
@@ -53,7 +52,7 @@ bool Game::determineWinner(Player* player, Dealer* dealer) const {
     return false;
 }
 
-bool Game::playRound(const std::string& playerName) {
+bool Game::playRound(const std::string& playerName) {           //Blackjack clasico, un turno por jugador, se podria hacer mas variantes con modificaciones pequeñas a esta funcion
     Player* player = new Player(playerName);
     Dealer* dealer = new Dealer();
     Deck* deck = new Deck();
@@ -67,4 +66,10 @@ bool Game::playRound(const std::string& playerName) {
     delete dealer;
     delete deck;
     return win;
+}
+
+void Game::showPartialHands(Player* player, Dealer* dealer) const {
+    std::cout << "=== Manos Iniciales ===";
+    std::cout << "Tu mano: " << player->showHand(false) << "";
+    std::cout << "Dealer mano: " << dealer->showHand(true) << " (oculto)";
 }

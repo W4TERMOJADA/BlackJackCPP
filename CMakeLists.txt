@@ -1,16 +1,17 @@
 cmake_minimum_required(VERSION 3.10)
-project(BlackJack)
-
-# Set the C++ standard
+project(BlackjackClassicPointers)
 set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_CXX_STANDARD_REQUIRED True)
-
-
-
-# Add the source files
 set(SOURCES
+    src/Card.cpp
+    src/Deck.cpp
+    src/Hand.cpp
+    src/Participant.cpp
+    src/Player.cpp
+    src/Dealer.cpp
+    src/History.cpp
+    src/Game.cpp
     src/main.cpp
 )
 include_directories(src)
-# Add the executable target
-add_executable(BlackJack ${SOURCES})
+add_executable(BlackjackClassicPointers ${SOURCES})
+# Include directories

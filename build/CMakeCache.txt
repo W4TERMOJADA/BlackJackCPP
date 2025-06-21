@@ -23,6 +23,15 @@ BlackJack_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 BlackJack_SOURCE_DIR:STATIC=C:/Users/Juan/Desktop/BlackJackCPP
 
+//Value Computed by CMake
+BlackjackClassicPointers_BINARY_DIR:STATIC=C:/Users/Juan/Desktop/BlackJackCPP/build
+
+//Value Computed by CMake
+BlackjackClassicPointers_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+BlackjackClassicPointers_SOURCE_DIR:STATIC=C:/Users/Juan/Desktop/BlackJackCPP
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=C:/mingw64/bin/llvm-addr2line.exe
 
@@ -167,7 +176,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=BlackJack
+CMAKE_PROJECT_NAME:STATIC=BlackjackClassicPointers
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=C:/mingw64/bin/llvm-ranlib.exe

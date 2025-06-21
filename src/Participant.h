@@ -1,34 +1,19 @@
-
-#pragma once
+#ifndef PARTICIPANT_H
+#define PARTICIPANT_H
+#include "Hand.h"
+#include "Card.h"
 #include <string>
-
 class Participant {
-private:
-
-
-
-
 public:
-    virtual ~Participant() = default;
-
-    // Returns the name of the participant
-    virtual std::string getName() const = 0;
-
-    // Returns the total value of the participant's hand
-    virtual int getHandValue() const = 0;
-
-    // Checks if the participant has a blackjack
-    virtual bool isBlackjack() const = 0;
-
-    // Checks if the participant is bust (over 21)
-    virtual bool isBust() const = 0;
-
-    // Clears the participant's hand
-    virtual void clearHand() = 0;
-
-    // Receives a card and adds it to the participant's hand
-    virtual void receiveCard(const Card& card) = 0;
-
-    // Displays the participant's hand, optionally hiding some cards
-    virtual std::string showHand(bool hideFirstCard) const = 0;
-}
+    Participant();
+    virtual ~Participant();
+    void clearHand();
+    void receiveCard(const Card& c);
+    int getHandValue() const;
+    bool isBust() const;
+    bool isBlackjack() const;
+    std::string showHand(bool hideFirst=false) const;
+protected:
+    Hand* hand;
+};
+#endif // PARTICIPANT_H

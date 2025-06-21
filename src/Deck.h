@@ -1,26 +1,18 @@
-#pragma once
-
-#include "Player.h"
-#include "Dealer.h"
-#include "History.h"
-
-#include <vector>
+#ifndef DECK_H
+#define DECK_H
 #include "Card.h"
+#include <vector>
 #include <random>
 
 class Deck {
-    private:
-    std::vector<Card>* cards;
-    std::mt19937* rng;
-
-    public:
+public:
     Deck();
     ~Deck();
-
-    void shufle();
+    void shuffle();
     Card dealCard();
-    int getRemainingCards() const;
-
-    
-    
-}
+    int cardsRemaining() const;
+private:
+    std::vector<Card>* cards;
+    std::mt19937* rng;
+};
+#endif // DECK_H

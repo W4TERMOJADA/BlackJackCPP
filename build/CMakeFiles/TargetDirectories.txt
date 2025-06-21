@@ -1,3 +1,3 @@
-C:/Users/Juan/Desktop/BlackJackCPP/build/CMakeFiles/BlackJack.dir
+C:/Users/Juan/Desktop/BlackJackCPP/build/CMakeFiles/BlackjackClassicPointers.dir
 C:/Users/Juan/Desktop/BlackJackCPP/build/CMakeFiles/edit_cache.dir
 C:/Users/Juan/Desktop/BlackJackCPP/build/CMakeFiles/rebuild_cache.dir

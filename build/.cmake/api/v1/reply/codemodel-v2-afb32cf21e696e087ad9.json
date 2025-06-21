@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "BlackJack",
+					"name" : "BlackjackClassicPointers",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "BlackJack::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-BlackJack-Debug-e703f199f085f229283f.json",
-					"name" : "BlackJack",
+					"id" : "BlackjackClassicPointers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BlackjackClassicPointers-Debug-11069ee949747c237fe1.json",
+					"name" : "BlackjackClassicPointers",
 					"projectIndex" : 0
 				}
 			]

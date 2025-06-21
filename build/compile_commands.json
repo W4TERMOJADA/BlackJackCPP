@@ -1,8 +1,56 @@
 [
 {
   "directory": "C:/Users/Juan/Desktop/BlackJackCPP/build",
-  "command": "C:\\mingw64\\bin\\clang++.exe  @CMakeFiles/BlackJack.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\BlackJack.dir\\src\\main.cpp.obj -c C:\\Users\\Juan\\Desktop\\BlackJackCPP\\src\\main.cpp",
+  "command": "C:\\mingw64\\bin\\clang++.exe  @CMakeFiles/BlackjackClassicPointers.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\BlackjackClassicPointers.dir\\src\\Card.cpp.obj -c C:\\Users\\Juan\\Desktop\\BlackJackCPP\\src\\Card.cpp",
+  "file": "C:/Users/Juan/Desktop/BlackJackCPP/src/Card.cpp",
+  "output": "CMakeFiles/BlackjackClassicPointers.dir/src/Card.cpp.obj"
+},
+{
+  "directory": "C:/Users/Juan/Desktop/BlackJackCPP/build",
+  "command": "C:\\mingw64\\bin\\clang++.exe  @CMakeFiles/BlackjackClassicPointers.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\BlackjackClassicPointers.dir\\src\\Deck.cpp.obj -c C:\\Users\\Juan\\Desktop\\BlackJackCPP\\src\\Deck.cpp",
+  "file": "C:/Users/Juan/Desktop/BlackJackCPP/src/Deck.cpp",
+  "output": "CMakeFiles/BlackjackClassicPointers.dir/src/Deck.cpp.obj"
+},
+{
+  "directory": "C:/Users/Juan/Desktop/BlackJackCPP/build",
+  "command": "C:\\mingw64\\bin\\clang++.exe  @CMakeFiles/BlackjackClassicPointers.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\BlackjackClassicPointers.dir\\src\\Hand.cpp.obj -c C:\\Users\\Juan\\Desktop\\BlackJackCPP\\src\\Hand.cpp",
+  "file": "C:/Users/Juan/Desktop/BlackJackCPP/src/Hand.cpp",
+  "output": "CMakeFiles/BlackjackClassicPointers.dir/src/Hand.cpp.obj"
+},
+{
+  "directory": "C:/Users/Juan/Desktop/BlackJackCPP/build",
+  "command": "C:\\mingw64\\bin\\clang++.exe  @CMakeFiles/BlackjackClassicPointers.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\BlackjackClassicPointers.dir\\src\\Participant.cpp.obj -c C:\\Users\\Juan\\Desktop\\BlackJackCPP\\src\\Participant.cpp",
+  "file": "C:/Users/Juan/Desktop/BlackJackCPP/src/Participant.cpp",
+  "output": "CMakeFiles/BlackjackClassicPointers.dir/src/Participant.cpp.obj"
+},
+{
+  "directory": "C:/Users/Juan/Desktop/BlackJackCPP/build",
+  "command": "C:\\mingw64\\bin\\clang++.exe  @CMakeFiles/BlackjackClassicPointers.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\BlackjackClassicPointers.dir\\src\\Player.cpp.obj -c C:\\Users\\Juan\\Desktop\\BlackJackCPP\\src\\Player.cpp",
+  "file": "C:/Users/Juan/Desktop/BlackJackCPP/src/Player.cpp",
+  "output": "CMakeFiles/BlackjackClassicPointers.dir/src/Player.cpp.obj"
+},
+{
+  "directory": "C:/Users/Juan/Desktop/BlackJackCPP/build",
+  "command": "C:\\mingw64\\bin\\clang++.exe  @CMakeFiles/BlackjackClassicPointers.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\BlackjackClassicPointers.dir\\src\\Dealer.cpp.obj -c C:\\Users\\Juan\\Desktop\\BlackJackCPP\\src\\Dealer.cpp",
+  "file": "C:/Users/Juan/Desktop/BlackJackCPP/src/Dealer.cpp",
+  "output": "CMakeFiles/BlackjackClassicPointers.dir/src/Dealer.cpp.obj"
+},
+{
+  "directory": "C:/Users/Juan/Desktop/BlackJackCPP/build",
+  "command": "C:\\mingw64\\bin\\clang++.exe  @CMakeFiles/BlackjackClassicPointers.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\BlackjackClassicPointers.dir\\src\\History.cpp.obj -c C:\\Users\\Juan\\Desktop\\BlackJackCPP\\src\\History.cpp",
+  "file": "C:/Users/Juan/Desktop/BlackJackCPP/src/History.cpp",
+  "output": "CMakeFiles/BlackjackClassicPointers.dir/src/History.cpp.obj"
+},
+{
+  "directory": "C:/Users/Juan/Desktop/BlackJackCPP/build",
+  "command": "C:\\mingw64\\bin\\clang++.exe  @CMakeFiles/BlackjackClassicPointers.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\BlackjackClassicPointers.dir\\src\\Game.cpp.obj -c C:\\Users\\Juan\\Desktop\\BlackJackCPP\\src\\Game.cpp",
+  "file": "C:/Users/Juan/Desktop/BlackJackCPP/src/Game.cpp",
+  "output": "CMakeFiles/BlackjackClassicPointers.dir/src/Game.cpp.obj"
+},
+{
+  "directory": "C:/Users/Juan/Desktop/BlackJackCPP/build",
+  "command": "C:\\mingw64\\bin\\clang++.exe  @CMakeFiles/BlackjackClassicPointers.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\BlackjackClassicPointers.dir\\src\\main.cpp.obj -c C:\\Users\\Juan\\Desktop\\BlackJackCPP\\src\\main.cpp",
   "file": "C:/Users/Juan/Desktop/BlackJackCPP/src/main.cpp",
-  "output": "CMakeFiles/BlackJack.dir/src/main.cpp.obj"
+  "output": "CMakeFiles/BlackjackClassicPointers.dir/src/main.cpp.obj"
 }
 ]

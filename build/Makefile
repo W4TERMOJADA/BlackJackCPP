@@ -116,24 +116,216 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named BlackJack
+# Target rules for targets named BlackjackClassicPointers
 
 # Build rule for target.
-BlackJack: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 BlackJack
-.PHONY : BlackJack
+BlackjackClassicPointers: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 BlackjackClassicPointers
+.PHONY : BlackjackClassicPointers
 
 # fast build rule for target.
-BlackJack/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BlackJack.dir\build.make CMakeFiles/BlackJack.dir/build
-.PHONY : BlackJack/fast
+BlackjackClassicPointers/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BlackjackClassicPointers.dir\build.make CMakeFiles/BlackjackClassicPointers.dir/build
+.PHONY : BlackjackClassicPointers/fast
+
+src/Card.obj: src/Card.cpp.obj
+.PHONY : src/Card.obj
+
+# target to build an object file
+src/Card.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BlackjackClassicPointers.dir\build.make CMakeFiles/BlackjackClassicPointers.dir/src/Card.cpp.obj
+.PHONY : src/Card.cpp.obj
+
+src/Card.i: src/Card.cpp.i
+.PHONY : src/Card.i
+
+# target to preprocess a source file
+src/Card.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BlackjackClassicPointers.dir\build.make CMakeFiles/BlackjackClassicPointers.dir/src/Card.cpp.i
+.PHONY : src/Card.cpp.i
+
+src/Card.s: src/Card.cpp.s
+.PHONY : src/Card.s
+
+# target to generate assembly for a file
+src/Card.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BlackjackClassicPointers.dir\build.make CMakeFiles/BlackjackClassicPointers.dir/src/Card.cpp.s
+.PHONY : src/Card.cpp.s
+
+src/Dealer.obj: src/Dealer.cpp.obj
+.PHONY : src/Dealer.obj
+
+# target to build an object file
+src/Dealer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BlackjackClassicPointers.dir\build.make CMakeFiles/BlackjackClassicPointers.dir/src/Dealer.cpp.obj
+.PHONY : src/Dealer.cpp.obj
+
+src/Dealer.i: src/Dealer.cpp.i
+.PHONY : src/Dealer.i
+
+# target to preprocess a source file
+src/Dealer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BlackjackClassicPointers.dir\build.make CMakeFiles/BlackjackClassicPointers.dir/src/Dealer.cpp.i
+.PHONY : src/Dealer.cpp.i
+
+src/Dealer.s: src/Dealer.cpp.s
+.PHONY : src/Dealer.s
+
+# target to generate assembly for a file
+src/Dealer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BlackjackClassicPointers.dir\build.make CMakeFiles/BlackjackClassicPointers.dir/src/Dealer.cpp.s
+.PHONY : src/Dealer.cpp.s
+
+src/Deck.obj: src/Deck.cpp.obj
+.PHONY : src/Deck.obj
+
+# target to build an object file
+src/Deck.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BlackjackClassicPointers.dir\build.make CMakeFiles/BlackjackClassicPointers.dir/src/Deck.cpp.obj
+.PHONY : src/Deck.cpp.obj
+
+src/Deck.i: src/Deck.cpp.i
+.PHONY : src/Deck.i
+
+# target to preprocess a source file
+src/Deck.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BlackjackClassicPointers.dir\build.make CMakeFiles/BlackjackClassicPointers.dir/src/Deck.cpp.i
+.PHONY : src/Deck.cpp.i
+
+src/Deck.s: src/Deck.cpp.s
+.PHONY : src/Deck.s
+
+# target to generate assembly for a file
+src/Deck.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BlackjackClassicPointers.dir\build.make CMakeFiles/BlackjackClassicPointers.dir/src/Deck.cpp.s
+.PHONY : src/Deck.cpp.s
+
+src/Game.obj: src/Game.cpp.obj
+.PHONY : src/Game.obj
+
+# target to build an object file
+src/Game.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BlackjackClassicPointers.dir\build.make CMakeFiles/BlackjackClassicPointers.dir/src/Game.cpp.obj
+.PHONY : src/Game.cpp.obj
+
+src/Game.i: src/Game.cpp.i
+.PHONY : src/Game.i
+
+# target to preprocess a source file
+src/Game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BlackjackClassicPointers.dir\build.make CMakeFiles/BlackjackClassicPointers.dir/src/Game.cpp.i
+.PHONY : src/Game.cpp.i
+
+src/Game.s: src/Game.cpp.s
+.PHONY : src/Game.s
+
+# target to generate assembly for a file
+src/Game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BlackjackClassicPointers.dir\build.make CMakeFiles/BlackjackClassicPointers.dir/src/Game.cpp.s
+.PHONY : src/Game.cpp.s
+
+src/Hand.obj: src/Hand.cpp.obj
+.PHONY : src/Hand.obj
+
+# target to build an object file
+src/Hand.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BlackjackClassicPointers.dir\build.make CMakeFiles/BlackjackClassicPointers.dir/src/Hand.cpp.obj
+.PHONY : src/Hand.cpp.obj
+
+src/Hand.i: src/Hand.cpp.i
+.PHONY : src/Hand.i
+
+# target to preprocess a source file
+src/Hand.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BlackjackClassicPointers.dir\build.make CMakeFiles/BlackjackClassicPointers.dir/src/Hand.cpp.i
+.PHONY : src/Hand.cpp.i
+
+src/Hand.s: src/Hand.cpp.s
+.PHONY : src/Hand.s
+
+# target to generate assembly for a file
+src/Hand.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BlackjackClassicPointers.dir\build.make CMakeFiles/BlackjackClassicPointers.dir/src/Hand.cpp.s
+.PHONY : src/Hand.cpp.s
+
+src/History.obj: src/History.cpp.obj
+.PHONY : src/History.obj
+
+# target to build an object file
+src/History.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BlackjackClassicPointers.dir\build.make CMakeFiles/BlackjackClassicPointers.dir/src/History.cpp.obj
+.PHONY : src/History.cpp.obj
+
+src/History.i: src/History.cpp.i
+.PHONY : src/History.i
+
+# target to preprocess a source file
+src/History.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BlackjackClassicPointers.dir\build.make CMakeFiles/BlackjackClassicPointers.dir/src/History.cpp.i
+.PHONY : src/History.cpp.i
+
+src/History.s: src/History.cpp.s
+.PHONY : src/History.s
+
+# target to generate assembly for a file
+src/History.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BlackjackClassicPointers.dir\build.make CMakeFiles/BlackjackClassicPointers.dir/src/History.cpp.s
+.PHONY : src/History.cpp.s
+
+src/Participant.obj: src/Participant.cpp.obj
+.PHONY : src/Participant.obj
+
+# target to build an object file
+src/Participant.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BlackjackClassicPointers.dir\build.make CMakeFiles/BlackjackClassicPointers.dir/src/Participant.cpp.obj
+.PHONY : src/Participant.cpp.obj
+
+src/Participant.i: src/Participant.cpp.i
+.PHONY : src/Participant.i
+
+# target to preprocess a source file
+src/Participant.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BlackjackClassicPointers.dir\build.make CMakeFiles/BlackjackClassicPointers.dir/src/Participant.cpp.i
+.PHONY : src/Participant.cpp.i
+
+src/Participant.s: src/Participant.cpp.s
+.PHONY : src/Participant.s
+
+# target to generate assembly for a file
+src/Participant.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BlackjackClassicPointers.dir\build.make CMakeFiles/BlackjackClassicPointers.dir/src/Participant.cpp.s
+.PHONY : src/Participant.cpp.s
+
+src/Player.obj: src/Player.cpp.obj
+.PHONY : src/Player.obj
+
+# target to build an object file
+src/Player.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BlackjackClassicPointers.dir\build.make CMakeFiles/BlackjackClassicPointers.dir/src/Player.cpp.obj
+.PHONY : src/Player.cpp.obj
+
+src/Player.i: src/Player.cpp.i
+.PHONY : src/Player.i
+
+# target to preprocess a source file
+src/Player.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BlackjackClassicPointers.dir\build.make CMakeFiles/BlackjackClassicPointers.dir/src/Player.cpp.i
+.PHONY : src/Player.cpp.i
+
+src/Player.s: src/Player.cpp.s
+.PHONY : src/Player.s
+
+# target to generate assembly for a file
+src/Player.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BlackjackClassicPointers.dir\build.make CMakeFiles/BlackjackClassicPointers.dir/src/Player.cpp.s
+.PHONY : src/Player.cpp.s
 
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
 # target to build an object file
 src/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BlackJack.dir\build.make CMakeFiles/BlackJack.dir/src/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BlackjackClassicPointers.dir\build.make CMakeFiles/BlackjackClassicPointers.dir/src/main.cpp.obj
 .PHONY : src/main.cpp.obj
 
 src/main.i: src/main.cpp.i
@@ -141,7 +333,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BlackJack.dir\build.make CMakeFiles/BlackJack.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BlackjackClassicPointers.dir\build.make CMakeFiles/BlackjackClassicPointers.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -149,7 +341,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BlackJack.dir\build.make CMakeFiles/BlackJack.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BlackjackClassicPointers.dir\build.make CMakeFiles/BlackjackClassicPointers.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -160,7 +352,31 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... BlackJack
+	@echo ... BlackjackClassicPointers
+	@echo ... src/Card.obj
+	@echo ... src/Card.i
+	@echo ... src/Card.s
+	@echo ... src/Dealer.obj
+	@echo ... src/Dealer.i
+	@echo ... src/Dealer.s
+	@echo ... src/Deck.obj
+	@echo ... src/Deck.i
+	@echo ... src/Deck.s
+	@echo ... src/Game.obj
+	@echo ... src/Game.i
+	@echo ... src/Game.s
+	@echo ... src/Hand.obj
+	@echo ... src/Hand.i
+	@echo ... src/Hand.s
+	@echo ... src/History.obj
+	@echo ... src/History.i
+	@echo ... src/History.s
+	@echo ... src/Participant.obj
+	@echo ... src/Participant.i
+	@echo ... src/Participant.s
+	@echo ... src/Player.obj
+	@echo ... src/Player.i
+	@echo ... src/Player.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

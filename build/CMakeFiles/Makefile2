@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = C:\Users\Juan\Desktop\BlackJackCPP\build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/BlackJack.dir/all
+all: CMakeFiles/BlackjackClassicPointers.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -70,34 +70,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/BlackJack.dir/clean
+clean: CMakeFiles/BlackjackClassicPointers.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/BlackJack.dir
+# Target rules for target CMakeFiles/BlackjackClassicPointers.dir
 
 # All Build rule for target.
-CMakeFiles/BlackJack.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BlackJack.dir\build.make CMakeFiles/BlackJack.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BlackJack.dir\build.make CMakeFiles/BlackJack.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Juan\Desktop\BlackJackCPP\build\CMakeFiles --progress-num=1,2 "Built target BlackJack"
-.PHONY : CMakeFiles/BlackJack.dir/all
+CMakeFiles/BlackjackClassicPointers.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BlackjackClassicPointers.dir\build.make CMakeFiles/BlackjackClassicPointers.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BlackjackClassicPointers.dir\build.make CMakeFiles/BlackjackClassicPointers.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Juan\Desktop\BlackJackCPP\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target BlackjackClassicPointers"
+.PHONY : CMakeFiles/BlackjackClassicPointers.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/BlackJack.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Juan\Desktop\BlackJackCPP\build\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/BlackJack.dir/all
+CMakeFiles/BlackjackClassicPointers.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Juan\Desktop\BlackJackCPP\build\CMakeFiles 10
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/BlackjackClassicPointers.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Juan\Desktop\BlackJackCPP\build\CMakeFiles 0
-.PHONY : CMakeFiles/BlackJack.dir/rule
+.PHONY : CMakeFiles/BlackjackClassicPointers.dir/rule
 
 # Convenience name for target.
-BlackJack: CMakeFiles/BlackJack.dir/rule
-.PHONY : BlackJack
+BlackjackClassicPointers: CMakeFiles/BlackjackClassicPointers.dir/rule
+.PHONY : BlackjackClassicPointers
 
 # clean rule for target.
-CMakeFiles/BlackJack.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\BlackJack.dir\build.make CMakeFiles/BlackJack.dir/clean
-.PHONY : CMakeFiles/BlackJack.dir/clean
+CMakeFiles/BlackjackClassicPointers.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BlackjackClassicPointers.dir\build.make CMakeFiles/BlackjackClassicPointers.dir/clean
+.PHONY : CMakeFiles/BlackjackClassicPointers.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
